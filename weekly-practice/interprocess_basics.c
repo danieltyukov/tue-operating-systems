@@ -33,7 +33,7 @@
 #include <mqueue.h>
 #include <sys/wait.h>   /* for waitpid() */
 
-#define STUDENT_NAME        "your_name_here"
+#define STUDENT_NAME        "daniel_tyukov"
 
 static char                 mq_name1[80];
 static char                 mq_name2[80];
@@ -254,4 +254,3 @@ int main (int argc, char * argv[])
     
     return (0);
 }
-
