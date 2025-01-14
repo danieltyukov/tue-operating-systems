@@ -33,18 +33,18 @@
 
 int main(int argc, char *argv[])
 {
+    // check amount of arguments
     if (argc != 2)
     {
         fprintf(stderr, "Usage: %s <Req_queue_name>\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
+    // open the request queue
     mqd_t mq_c2d;
     req_queue_T21 req;
     int size_req = sizeof(req_queue_T21);
-
     mq_c2d = mq_open(argv[1], O_WRONLY);
-
     if (mq_c2d == (mqd_t)-1)
     {
         perror("Client: mq_open");
