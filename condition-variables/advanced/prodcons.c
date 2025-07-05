@@ -1,16 +1,3 @@
-/*
- * Operating Systems  (2INC0)  Practical Assignment.
- * Condition Variables Application.
- *
- * Nitin Singhal (1725963)
- * Daniel Tyukov (1819283)
- * Ben Lentschig (1824805)
- *
- * Grading:
- * Students who hand in clean code that fully satisfies the minimum requirements will get an 8.
- * Extra steps can lead to higher marks because we want students to take the initiative.
- */
-
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>

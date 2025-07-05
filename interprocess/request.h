@@ -1,11 +1,3 @@
-/* 
- * Operating Systems (2INCO) Practical Assignment
- * Interprocess Communication
- *
- * Contains definitions that are used by the clients
- *
- */
-
 #ifndef REQUEST_H
 #define REQUEST_H
 

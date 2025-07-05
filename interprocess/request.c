@@ -1,11 +1,3 @@
-/* 
- * Operating Systems (2INCO) Practical Assignment
- * Interprocess Communication
- *
- * Contains functions that are used by the clients
- *
- */
-
 #include "request.h"
 
 // Array of requests

@@ -1,11 +1,3 @@
-/* 
- * Operating Systems (2INCO) Practical Assignment
- * Interprocess Communication
- *
- * Service 1 implementation
- *
- */
-
 #include "service1.h"
 
 

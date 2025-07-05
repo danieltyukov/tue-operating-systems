@@ -1,11 +1,3 @@
-/* 
- * Operating Systems <2INC0> Practical Assignment
- * Condition Variable application
- *
- * Joris Geurts
- *
- */
-
 /* ITEM:
  * a job identification (values 1..NROF_ITEMS-1)
  */

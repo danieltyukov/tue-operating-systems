@@ -1,30 +1,3 @@
-/* 
- * Operating Systems <2INC0> Practical 
- * 2016/2020 (c) Joris Geurts
- *
- * This program contains some C constructs which might be useful for
- * the Interprocess Communication assignment of 2INC0.
- *
- *
- *      I M P O R T A N T    M E S S A G E :
- *      ====================================
- *
- * For readability reasons, this program does not check the return value of 
- * the POSIX calls.
- * This is not a good habit.
- * Always check the return value of a system call (you never know if the disk is 
- * full, or if we run out of other system resources)!
- * Possible construction:
- *
- *      rtnval = <posix-call>();
- *      if (rtnval == <error-value-according-documentation>)
- *      {
- *          perror ("<your-message>");
- *          exit (1);
- *      }
- *
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
